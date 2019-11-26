@@ -41,7 +41,7 @@ cv2.destroyAllWindows()
 
 faceData=np.asarray(faceData)
 
-np.save('deekshitha',faceData)
+np.save('Face matched',faceData)
 
 '''
 with open("output.csv","w") as f:
