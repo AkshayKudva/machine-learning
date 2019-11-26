@@ -21,8 +21,8 @@ plt.imshow(grayFace,cmap='gray')
 faces=faceCascade.detectMultiScale(grayFace,1.3,5)
 
 names={
-       1:"deekshitha",
-       0:"hencel"
+       1:"face1",
+       0:"face2"
        }
 #x,y,w,h=faces[0,:]
 i=0
