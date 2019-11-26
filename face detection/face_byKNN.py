@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 faceCascade=cv2.CascadeClassifier('haarcascade.xml')
-person1=np.load('deek.npy').reshape(20,50*50*3)
-person2=np.load('deepa.npy').reshape(20,50*50*3)
+person1=np.load('face1.npy').reshape(20,50*50*3)
+person2=np.load('face2.npy').reshape(20,50*50*3)
 
 names={
       0:'face1',
