@@ -6,8 +6,8 @@ person1=np.load('deek.npy').reshape(20,50*50*3)
 person2=np.load('deepa.npy').reshape(20,50*50*3)
 
 names={
-      0:'deekshitha',
-      1:'deepa'
+      0:'face1',
+      1:'face2'
       }
 data=np.concatenate([person1,person2])
 labels=np.zeros((40,1))
